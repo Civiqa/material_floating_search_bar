@@ -345,7 +345,7 @@ class FloatingSearchBar extends ImplicitlyAnimatedWidget {
   final EdgeInsets scrollPadding;
   const FloatingSearchBar({
     Key? key,
-    Duration implicitDuration = const Duration(milliseconds: 600),
+    Duration implicitDuration = const Duration(milliseconds: 200),
     Curve implicitCurve = Curves.linear,
     this.body,
     this.accentColor,
@@ -371,7 +371,7 @@ class FloatingSearchBar extends ImplicitlyAnimatedWidget {
     this.automaticallyImplyBackButton = true,
     this.closeOnBackdropTap = true,
     this.progress = false,
-    this.transitionDuration = const Duration(milliseconds: 500),
+    this.transitionDuration = const Duration(milliseconds: 100),
     this.transitionCurve = Curves.ease,
     this.debounceDelay = Duration.zero,
     this.title,
